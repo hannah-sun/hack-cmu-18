@@ -17,6 +17,15 @@
         "js": ["content.js"]
       }
      ],
-    "permissions" : ["notifications", "storage"],
+    "permissions" : ["alarms",
+    "contextMenus",
+    "identity",
+    "notifications",
+    "storage",
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "http://calendar.google.com/calendar/*",
+    "https://calendar.google.com/calendar/*"],
     "manifest_version": 2
   }
